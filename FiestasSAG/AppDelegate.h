@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic,retain) NSMutableArray *globalArray;
+@property (nonatomic,retain) NSMutableArray *globalArray1;
+@property (nonatomic,retain) NSMutableArray *globalArray2;
+@property (nonatomic,retain) NSMutableArray *globalArray3;
+
+
+
 
 @end
